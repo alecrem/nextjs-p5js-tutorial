@@ -14,7 +14,7 @@ export const CTA = () => (
     <Button
       as={ChakraLink}
       isExternal
-      href="https://chakra-ui.com"
+      href="https://gist.github.com/alecrem/bd672f7d8f5c5ef99458dcedc09d9d61"
       variant="outline"
       colorScheme="green"
       rounded="button"
@@ -22,12 +22,12 @@ export const CTA = () => (
       mx={2}
       width="full"
     >
-      chakra-ui
+      Qiitaで説明を読む
     </Button>
     <Button
       as={ChakraLink}
       isExternal
-      href="https://github.com/vercel/next.js/blob/canary/examples/with-chakra-ui"
+      href="https://github.com/alecrem/nextjs-p5js-tutorial"
       variant="solid"
       colorScheme="green"
       rounded="button"

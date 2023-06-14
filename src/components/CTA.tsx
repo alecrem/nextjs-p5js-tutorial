@@ -14,7 +14,7 @@ export const CTA = () => (
     <Button
       as={ChakraLink}
       isExternal
-      href="https://gist.github.com/alecrem/bd672f7d8f5c5ef99458dcedc09d9d61"
+      href="https://qiita.com/alecrem/items/d7f159a39541c72b1712"
       variant="outline"
       colorScheme="green"
       rounded="button"

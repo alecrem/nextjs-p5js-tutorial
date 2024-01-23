@@ -1064,10 +1064,10 @@
   dependencies:
     undici-types "~5.26.4"
 
-"@types/p5@1.3.3":
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/@types/p5/-/p5-1.3.3.tgz#a6994de51b93bd28f2e2ec3e0f159c209a7278eb"
-  integrity sha512-PBSFnX6IgV6Pqlx9wocUjSkGlm1I1ymz9tEiTbdNCqig6FOGiWcVUHx13TXRTBfRIhZC9+MqqgztMsgzpueaUg==
+"@types/p5@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@types/p5/-/p5-1.7.0.tgz#af56b6b930f31e73d6ec1cb9f4539481d3212b51"
+  integrity sha512-6AnjmW98/edgXB+pYDBx7t6QbCogIG6NUzey93JpGTZA4096C+KjSN8y0sj43QRd9XtblrAhoRXHj1pFZ2vsCg==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -1415,10 +1415,10 @@ opencollective-postinstall@2.0.2:
   resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.2.tgz#5657f1bede69b6e33a45939b061eb53d3c6c3a89"
   integrity sha512-pVOEP16TrAO2/fjej1IdOyupJY8KDUM1CvsaScRbw6oddvpQoOfGk4ywha0HKKVAD6RkW4x6Q+tNBwhf3Bgpuw==
 
-p5@1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/p5/-/p5-1.3.1.tgz#7a6021bf2a42974cef71501c56e5b2120f5a2de1"
-  integrity sha512-g7W2htgEwiAEGcl0WHccAJKbunUJwrUojUSR9+KihphJ33p5VpDdh1K8pDx4ppYjOr/lVEXaZ1XXDj27nwlNOg==
+p5@1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/p5/-/p5-1.7.0.tgz#c983f12c2ffc1125e17cb89e97103f7716cb9f05"
+  integrity sha512-qrbT/44Dwm63ZtOKX/mp61pw+5yj6ijYLOmRv7p6zcfjbo83Vb0gVFEvW0kTLFu7hceWCig0HONo9F1bSlqbsQ==
 
 parent-module@^1.0.0:
   version "1.0.1"
@@ -1507,14 +1507,14 @@ react-is@^16.13.1, react-is@^16.7.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-p5@^1.3.35:
-  version "1.3.35"
-  resolved "https://registry.yarnpkg.com/react-p5/-/react-p5-1.3.35.tgz#6b230e88099a492a9850fdf1a5eb063e90b1f897"
-  integrity sha512-76Fu2tLiomVOFGV/TElmAqkem+pWsSRIVE1OO0H3vG2mz41o81oFHb/1kSfZ2Y5TvMft8ancRwN7XwPEs50Hag==
+react-p5@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/react-p5/-/react-p5-1.4.1.tgz#29047ba7dd2a7aa9bcf22d552f78d1d663a59e41"
+  integrity sha512-njeL8zskkbo8gK3ql1u4/MgmecT/g7Z7LvypTn65DWUnuBvV/9S5AowcKkwQuLVo8/DDAE5vgGVFq1DOkoWiJA==
   dependencies:
-    "@types/p5" "1.3.3"
+    "@types/p5" "1.7.0"
     opencollective-postinstall "2.0.2"
-    p5 "1.3.1"
+    p5 "1.7.0"
 
 react-remove-scroll-bar@^2.3.4:
   version "2.3.4"

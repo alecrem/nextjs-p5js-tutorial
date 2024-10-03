@@ -79,6 +79,11 @@
   resolved "https://registry.yarnpkg.com/@chakra-ui/anatomy/-/anatomy-2.2.2.tgz#2d0e14cba2534d92077ca28abf8c183b6e27897b"
   integrity sha512-MV6D4VLRIHr4PkW4zMyqfrNS1mPlCTiCXwvYGtDFQYr+xHFfonhAuf9WjsSc0nyp2m0OdkSLnzmVKkZFLo25Tg==
 
+"@chakra-ui/anatomy@2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/anatomy/-/anatomy-2.3.2.tgz#66c50d05847a81fed93f804fd0dfbc229b24cd47"
+  integrity sha512-YRezCngYKigfIOLVszAL21lv1h+61pgxVGRu2rcsVGCbbvGSTkMhoML2/Yw2c03sEkrhBIVx1RtX+7550njaoA==
+
 "@chakra-ui/avatar@2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@chakra-ui/avatar/-/avatar-2.3.0.tgz#f018a2714d1e3ba5970bcf66558887925fdfccf4"
@@ -785,13 +790,22 @@
     "@chakra-ui/form-control" "2.2.0"
     "@chakra-ui/shared-utils" "2.0.5"
 
-"@chakra-ui/theme-tools@2.1.2", "@chakra-ui/theme-tools@^2.1.2":
+"@chakra-ui/theme-tools@2.1.2":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@chakra-ui/theme-tools/-/theme-tools-2.1.2.tgz#913be05879cd816c546993ccb9ff7615f85ff69f"
   integrity sha512-Qdj8ajF9kxY4gLrq7gA+Azp8CtFHGO9tWMN2wfF9aQNgG9AuMhPrUzMq9AMQ0MXiYcgNq/FD3eegB43nHVmXVA==
   dependencies:
     "@chakra-ui/anatomy" "2.2.2"
     "@chakra-ui/shared-utils" "2.0.5"
+    color2k "^2.0.2"
+
+"@chakra-ui/theme-tools@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/theme-tools/-/theme-tools-2.2.2.tgz#4a6bf459351d60598099d5494c5b5f1ece724b1d"
+  integrity sha512-iK9xoIEnEO3mXSDUsnCNigFifgRU3K8fhuIrN+q20V7YxenrifqJ7wAbbALHxy7Awrfe3NOqdVca2lnsQ2L4Ig==
+  dependencies:
+    "@chakra-ui/anatomy" "2.3.2"
+    "@chakra-ui/utils" "2.1.2"
     color2k "^2.0.2"
 
 "@chakra-ui/theme-utils@2.0.21":
@@ -857,6 +871,14 @@
     "@types/lodash.mergewith" "4.6.7"
     css-box-model "1.2.1"
     framesync "6.1.2"
+    lodash.mergewith "4.6.2"
+
+"@chakra-ui/utils@2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-2.1.2.tgz#9ea9e1510530ca052ada9a314c254e5418d68338"
+  integrity sha512-zByY3e1SUjNJ8jLjpOEaM2r+j6fPyh2XxPFHKDwbuzgSRrsJX+5BGozXfh8ZhmIJmSuByOWnWvGDSWxl3gCqag==
+  dependencies:
+    "@types/lodash.mergewith" "4.6.9"
     lodash.mergewith "4.6.2"
 
 "@chakra-ui/visually-hidden@2.2.0":
@@ -1043,6 +1065,13 @@
   version "4.6.7"
   resolved "https://registry.yarnpkg.com/@types/lodash.mergewith/-/lodash.mergewith-4.6.7.tgz#eaa65aa5872abdd282f271eae447b115b2757212"
   integrity sha512-3m+lkO5CLRRYU0fhGRp7zbsGi6+BZj0uTVSwvcKU+nSlhjA9/QRNfuSGnD2mX6hQA7ZbmcCkzk5h4ZYGOtk14A==
+  dependencies:
+    "@types/lodash" "*"
+
+"@types/lodash.mergewith@4.6.9":
+  version "4.6.9"
+  resolved "https://registry.yarnpkg.com/@types/lodash.mergewith/-/lodash.mergewith-4.6.9.tgz#7093028a36de3cae4495d03b9d92c351cab1f8bf"
+  integrity sha512-fgkoCAOF47K7sxrQ7Mlud2TH023itugZs2bUg8h/KzT+BnZNrR2jAOmaokbLunHNnobXVWOezAeNn/lZqwxkcw==
   dependencies:
     "@types/lodash" "*"
 

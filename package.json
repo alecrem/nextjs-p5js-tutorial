@@ -10,7 +10,7 @@
     "@chakra-ui/react": "^2.10.3",
     "@chakra-ui/theme-tools": "^2.2.6",
     "@emotion/react": "^11.13.5",
-    "@emotion/styled": "^11.13.0",
+    "@emotion/styled": "^11.13.5",
     "framer-motion": "^11.11.17",
     "next": "latest",
     "react": "^18.3.1",

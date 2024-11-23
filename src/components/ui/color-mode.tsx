@@ -1,11 +1,11 @@
-"use client"
+'use client'
 
-import type { IconButtonProps } from "@chakra-ui/react"
-import { ClientOnly, IconButton, Skeleton } from "@chakra-ui/react"
-import { ThemeProvider, useTheme } from "next-themes"
-import type { ThemeProviderProps } from "next-themes/dist/types"
-import { forwardRef } from "react"
-import { LuMoon, LuSun } from "react-icons/lu"
+import type { IconButtonProps } from '@chakra-ui/react'
+import { ClientOnly, IconButton, Skeleton } from '@chakra-ui/react'
+import { ThemeProvider, useTheme } from 'next-themes'
+import type { ThemeProviderProps } from 'next-themes/dist/types'
+import { forwardRef } from 'react'
+import { LuMoon, LuSun } from 'react-icons/lu'
 
 export function ColorModeProvider(props: ThemeProviderProps) {
   return (
@@ -16,7 +16,7 @@ export function ColorModeProvider(props: ThemeProviderProps) {
 export function useColorMode() {
   const { resolvedTheme, setTheme } = useTheme()
   const toggleColorMode = () => {
-    setTheme(resolvedTheme === "light" ? "dark" : "light")
+    setTheme(resolvedTheme === 'light' ? 'dark' : 'light')
   }
   return {
     colorMode: resolvedTheme,
@@ -27,15 +27,15 @@ export function useColorMode() {
 
 export function useColorModeValue<T>(light: T, dark: T) {
   const { colorMode } = useColorMode()
-  return colorMode === "light" ? light : dark
+  return colorMode === 'light' ? light : dark
 }
 
 export function ColorModeIcon() {
   const { colorMode } = useColorMode()
-  return colorMode === "light" ? <LuSun /> : <LuMoon />
+  return colorMode === 'light' ? <LuSun /> : <LuMoon />
 }
 
-interface ColorModeButtonProps extends Omit<IconButtonProps, "aria-label"> {}
+interface ColorModeButtonProps extends Omit<IconButtonProps, 'aria-label'> {}
 
 export const ColorModeButton = forwardRef<
   HTMLButtonElement,
@@ -46,15 +46,19 @@ export const ColorModeButton = forwardRef<
     <ClientOnly fallback={<Skeleton boxSize="8" />}>
       <IconButton
         onClick={toggleColorMode}
-        variant="ghost"
+        variant="solid"
+        colorPalette="green"
         aria-label="Toggle color mode"
-        size="sm"
+        size="md"
+        position="absolute"
+        right="1em"
+        top="1em"
         ref={ref}
         {...props}
         css={{
           _icon: {
-            width: "5",
-            height: "5",
+            width: '5',
+            height: '5',
           },
         }}
       >

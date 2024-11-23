@@ -11,28 +11,32 @@ export const CTA = () => (
     maxWidth="3xl"
     py={3}
   >
-    <ChakraLink href="https://qiita.com/alecrem/items/d7f159a39541c72b1712">
+    <ChakraLink
+      href="https://qiita.com/alecrem/items/d7f159a39541c72b1712"
+      asChild
+    >
       <Button
-        // as={ChakraLink}
-        variant="outline"
-        colorScheme="green"
-        rounded="button"
+        variant="surface"
+        colorPalette="green"
+        fontWeight="bold"
+        borderRadius="xl"
         flexGrow={1}
         mx={2}
-        width="full"
+        maxW="50%"
       >
         Qiitaで説明を読む
       </Button>
     </ChakraLink>
-    <ChakraLink href="https://github.com/alecrem/nextjs-p5js-tutorial">
+    <ChakraLink href="https://github.com/alecrem/nextjs-p5js-tutorial" asChild>
       <Button
-        // as={ChakraLink}
         variant="solid"
-        colorScheme="green"
-        rounded="button"
-        flexGrow={3}
+        colorPalette="green"
+        color="white"
+        fontWeight="bold"
+        borderRadius="xl"
+        flexGrow={1}
         mx={2}
-        width="full"
+        maxW="50%"
       >
         View Repo
       </Button>

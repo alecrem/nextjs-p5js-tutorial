@@ -7,14 +7,16 @@
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.2.4",
-    "@chakra-ui/react": "^2.10.3",
+    "@chakra-ui/react": "^3.1.2",
     "@chakra-ui/theme-tools": "^2.2.6",
     "@emotion/react": "^11.13.5",
     "@emotion/styled": "^11.13.5",
     "framer-motion": "^11.11.17",
     "next": "latest",
+    "next-themes": "^0.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
     "react-p5": "^1.4.1"
   },
   "devDependencies": {

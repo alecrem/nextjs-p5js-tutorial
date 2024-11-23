@@ -17,8 +17,8 @@ export function P5jsContainer() {
   return (
     <>
       {mounted && (
-        <Center minW="100vw">
-          <AspectRatio width="100vw" maxW="container.sm" ratio={1}>
+        <Center maxW="100vh">
+          <AspectRatio width="100vh" maxW="container.sm" ratio={1}>
             <Sketch setup={setup} draw={draw} windowResized={windowResized} />
           </AspectRatio>
         </Center>

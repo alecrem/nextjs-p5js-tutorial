@@ -20,7 +20,7 @@
     "react-p5": "^1.4.1"
   },
   "devDependencies": {
-    "@types/node": "^22.10.3",
+    "@types/node": "^22.10.4",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
     "typescript": "^5.7.2"

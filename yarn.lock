@@ -1313,10 +1313,10 @@ find-root@^1.1.0:
   resolved "https://registry.yarnpkg.com/find-root/-/find-root-1.1.0.tgz#abcfc8ba76f708c42a97b3d685b7e9450bfb9ce4"
   integrity sha512-NKfW6bec6GfKc0SGx1e07QZY9PE99u0Bft/0rzSD5k3sO/vwkVUpDUKVm5Gpp5Ue3YfShPFTX2070tDs5kB9Ng==
 
-framer-motion@^12.0.1:
-  version "12.0.1"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.0.1.tgz#916cce32c8036765e5725d315a874efdea976ade"
-  integrity sha512-u6p0Qc4cY/AEQAtrC7qiYlXla39qnWoI4JXY7OCNBDXwJ5yRBD8HU+RhaOqqziw2m/b0BDh32f44W94+wXonMQ==
+framer-motion@^12.0.3:
+  version "12.0.3"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.0.3.tgz#9710ea9df94163d46a3251c68ae16369f606436b"
+  integrity sha512-5yy1sAqOjBUo+8O+kOa6/rIJ1AQLME8vEpUwwMf9Gv6YktaeeTd4bf0sb89AWwDVX7GwwuLebH94bakGOqWQ/g==
   dependencies:
     motion-dom "^12.0.0"
     motion-utils "^12.0.0"

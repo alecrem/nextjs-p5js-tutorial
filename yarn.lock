@@ -119,10 +119,10 @@
   resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-2.2.4.tgz#fc3f59a7e377d6e4efdbe8ee0a3aec7f29a4ab32"
   integrity sha512-l5QdBgwrAg3Sc2BRqtNkJpfuLw/pWRDwwT58J6c4PqQT6wzXxyNa8Q0PForu1ltB5qEiFb1kxr/F/HO1EwNa6g==
 
-"@chakra-ui/react@^3.8.0":
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/react/-/react-3.8.0.tgz#effb1ef8adf4b1899e6771a57232602eb0ac8b1c"
-  integrity sha512-UOkDxxMYHqQ6z/ExMcLYnjIIj2Ulu6syAkrpSueYmzLlG93cljkMCze5y9GXh/M6fyQEbLBuDVesULTqMmHuiA==
+"@chakra-ui/react@^3.8.1":
+  version "3.8.1"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/react/-/react-3.8.1.tgz#c561b5bc6cc9ec76b2ee40ed26a5d2112731eb5c"
+  integrity sha512-U1SIjSENiJ62tVKGq/fLDcQWSnzjVAsKCqNNIfg5RtPOP4y7j0k//n9HPsmGVLrBEJb5JGSTsudfFen0t/dHBQ==
   dependencies:
     "@ark-ui/react" "4.9.1"
     "@emotion/is-prop-valid" "1.3.1"
@@ -131,6 +131,7 @@
     "@emotion/utils" "1.4.2"
     "@pandacss/is-valid-prop" "0.41.0"
     csstype "3.1.3"
+    fast-safe-stringify "2.1.1"
 
 "@chakra-ui/theme-tools@^2.2.6":
   version "2.2.6"
@@ -1290,6 +1291,11 @@ escape-string-regexp@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
+
+fast-safe-stringify@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.1.1.tgz#c406a83b6e70d9e35ce3b30a81141df30aeba884"
+  integrity sha512-W+KJc2dmILlPplD/H4K9l9LcAHAfPtP6BY84uVLXQ6Evcz9Lcg33Y2z1IVblT6xdY54PXYVHEv+0Wpq8Io6zkA==
 
 find-root@^1.1.0:
   version "1.1.0"

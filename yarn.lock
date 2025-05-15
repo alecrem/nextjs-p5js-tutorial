@@ -124,10 +124,10 @@
   resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-2.2.4.tgz#fc3f59a7e377d6e4efdbe8ee0a3aec7f29a4ab32"
   integrity sha512-l5QdBgwrAg3Sc2BRqtNkJpfuLw/pWRDwwT58J6c4PqQT6wzXxyNa8Q0PForu1ltB5qEiFb1kxr/F/HO1EwNa6g==
 
-"@chakra-ui/react@^3.17.0":
-  version "3.17.0"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/react/-/react-3.17.0.tgz#a010bf6a799c61d0a83d91fb3117ab32acba508d"
-  integrity sha512-b6syn8PTCAEqXQa52KtVFs2lAavFTldb2SkBbAqmrlWQyE58jTxpgxaEsYsqQxq/bljwC0xHsh5/ACU7Xwr6sA==
+"@chakra-ui/react@^3.18.0":
+  version "3.18.0"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/react/-/react-3.18.0.tgz#9cbd6ac7bb669858f8c6f7bea031ff968c0be95b"
+  integrity sha512-/9uY+6BkbO2WNjtk0B+STC4vnxcQpE9eQs8XDGrAYHHEKUdPZbYCnKvXibdixkrLweIpQP2Yx9Vv5UuCvWzXHQ==
   dependencies:
     "@ark-ui/react" "5.8.0"
     "@emotion/is-prop-valid" "1.3.1"

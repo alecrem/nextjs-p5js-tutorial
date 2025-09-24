@@ -1375,12 +1375,12 @@ find-root@^1.1.0:
   resolved "https://registry.yarnpkg.com/find-root/-/find-root-1.1.0.tgz#abcfc8ba76f708c42a97b3d685b7e9450bfb9ce4"
   integrity sha512-NKfW6bec6GfKc0SGx1e07QZY9PE99u0Bft/0rzSD5k3sO/vwkVUpDUKVm5Gpp5Ue3YfShPFTX2070tDs5kB9Ng==
 
-framer-motion@^12.23.18:
-  version "12.23.18"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.23.18.tgz#a4cb09c01f84954324b530030fd6e295a97b0f7c"
-  integrity sha512-HBVXBL5x3nk/0WrYM5G4VgjBey99ytVYET5AX17s/pcnlH90cyaxVUqgoN8cpF4+PqZRVOhwWsv28F+hxA9Tzg==
+framer-motion@^12.23.19:
+  version "12.23.19"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.23.19.tgz#375ca593f3b3f0a10e330e1bbda7a6935078e949"
+  integrity sha512-AaWAohgTs2+wUoDdpJaaqMgV6vkm1uzzDlZUItem45linLrFiFqi4iw7bryhcVqu4loaaSLtSjAojfCAB3qczw==
   dependencies:
-    motion-dom "^12.23.18"
+    motion-dom "^12.23.19"
     motion-utils "^12.23.6"
     tslib "^2.4.0"
 
@@ -1453,10 +1453,10 @@ lodash.mergewith@4.6.2:
   resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.2.tgz#617121f89ac55f59047c7aec1ccd6654c6590f55"
   integrity sha512-GK3g5RPZWTRSeLSpgP8Xhra+pnjBC56q9FZYe1d5RN3TJ35dbkGy3YqBSMbyCrlbi+CM9Z3Jk5yTL7RCsqboyQ==
 
-motion-dom@^12.23.18:
-  version "12.23.18"
-  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.23.18.tgz#5a0965010f7378762be32a06a91ba108bb3bdce7"
-  integrity sha512-9piw3uOcP6DpS0qpnDF95bLDzmgMxLOg/jghLnHwYJ0YFizzuvbH/L8106dy39JNgHYmXFUTztoP9JQvUqlBwQ==
+motion-dom@^12.23.19:
+  version "12.23.19"
+  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.23.19.tgz#77e9c55a7f4ffcc60aba71d8e9db47d27af6d6b9"
+  integrity sha512-ivUCJ0zVZt7S++D8+ONeefkJj/8JlpCRYzGegLdXr8Z9aWg64KyljdaCGVa54Vv0K8hNE7vRQSaQve7V5l3rMw==
   dependencies:
     motion-utils "^12.23.6"
 
